@@ -1,0 +1,8 @@
+name: WDH-Map
+main: com.wdh.mapper.WdhMap
+version: 1.0
+api-version: 1.13
+commands:
+    wdhmap:
+        description: Says what this does
+        usage: /<command>
