@@ -4,17 +4,17 @@ version: 1.0
 api-version: 1.13
 commands:
     map:
-        description: Says what this does
+        description: WIP
         usage: /<command>
     ench:
-        description: Enchant Items
+        description: Enchants Items
         usage: /<command>
     dupe:
         description: Dupes items
         usage: /<command>
     repair:
         description: Repairs item
-        usage: /<command>
+        usage: /<command> <?all>
     unbreakable:
-        description: makes items unbreakable
-        usage: /<command> <on, off, toggle(t)>
+        description: Makes items unbreakable
+        usage: /<command> <on, off, toggle/t>
