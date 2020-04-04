@@ -3,6 +3,18 @@ main: com.wdh.mapper.WdhMap
 version: 1.0
 api-version: 1.13
 commands:
-    wdhmap:
+    map:
         description: Says what this does
         usage: /<command>
+    ench:
+        description: Enchant Items
+        usage: /<command>
+    dupe:
+        description: Dupes items
+        usage: /<command>
+    repair:
+        description: Repairs item
+        usage: /<command>
+    unbreakable:
+        description: makes items unbreakable
+        usage: /<command> <on, off, toggle(t)>

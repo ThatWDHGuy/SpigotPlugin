@@ -10,7 +10,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.generator.ChunkGenerator;
 
-public class WdhCommand implements CommandExecutor {
+public class MapCommand implements CommandExecutor {
 
 	List<World> worlds;
 	
@@ -44,6 +44,7 @@ public class WdhCommand implements CommandExecutor {
 				String send = "Generating chunks around:" + (int) l.getBlockX() + ", " + (int) l.getBlockZ() + " in world: " +  l.getWorld().getName() + " (" + l.getWorld().getUID().toString() + ")";
 				System.out.println(send);
 				p.sendMessage(send);
+				
 				for (World w : worlds) {
 					if (w.getName().equals(l.getWorld().getName())){
 						//System.out.println(w.getName() + " " + w.getUID().toString());
